@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto';
+}
+
+.mediaTalla {
+    width: 50%;
+}
+
+.textCard {
+    text-align: center;
+}
+
+/* media queries CSS */
+@media only screen and (max-wodth:760px) {
+    h1 {
+        color:red!important;
+        font-size: 12px!important;
+    }
+    .form-group.passwordBlock {
+        display: none;
+    }
+}
